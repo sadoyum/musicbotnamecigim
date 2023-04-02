@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/umudunukaybetmesohbet"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Asistanbothesabi"
+                        "🔊 Asistan", url="https://t.me/umudunukaybetmesohbet"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Makarnacumhuriyeti"
+                        "💬 Sohbet", url="https://t.me/umudunukaybetmesohbet"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Makarnacumhuriyeti"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudunukaybetmesohbet"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Mahoaga")
+                         "⚙ Geliştirici", url="https://t.me/hurkole")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url="https://t.me/Ieaderhurkole")
+            "⚙ Geliştirici", url="https://t.me/hurkole")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Ieaderhurkole")
+                         "⚙ Geliştirici", url="https://t.me/hurkole")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Ieaderhurkole")
+                         "⚙ Geliştirici", url="https://t.me/hurkole")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,15 +131,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/umudunukaybetmesohbet"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Asistanbothesabi"
+                        "🔊 Asistan", url="https://t.me/umudunukaybetmesohbet"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Makarnacumhuriyeti"
+                        "💬 Sohbet", url="https://t.me/umudunukaybetmesohbet"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Makarnacumhuriyeti"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudunukaybetmesohbet"
                     )
                 ]
                 
